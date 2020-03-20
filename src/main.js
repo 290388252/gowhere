@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import './assets/styles/reset.css'
+import './assets/styles/border.css' // 一像素手机端
 
 Vue.config.productionTip = false
 
