@@ -3,8 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import './assets/styles/reset.css'
-import './assets/styles/border.css' // 一像素手机端
+import 'styles/reset.css'
+import 'styles/border.css' // 一像素手机端
+import 'styles/iconfont/iconfont.css' // iconfont
 import fastClick from 'fastclick'
 
 fastClick.attach(document.body)
