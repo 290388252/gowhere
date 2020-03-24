@@ -7,7 +7,11 @@ import 'styles/reset.css'
 import 'styles/border.css' // 一像素手机端
 import 'styles/iconfont/iconfont.css' // iconfont
 import fastClick from 'fastclick'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+// require styles
+import 'swiper/dist/css/swiper.css'
 
+Vue.use(VueAwesomeSwiper) /* { default global options } */
 fastClick.attach(document.body)
 Vue.config.productionTip = false
 
