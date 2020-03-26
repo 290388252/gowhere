@@ -2,7 +2,7 @@
   <div>
     <div class="recommed-title">周末去哪儿</div>
     <ul>
-      <li class="item border-bottom" v-for="item of recommedList" :key="item.id">
+      <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
         <div class="item-img-wrapper">
           <img class="item-img" :src="item.imgUrl" alt="">
         </div>
@@ -19,25 +19,11 @@
 <script>
 export default {
   name: 'HomeRecommed',
+  props: {
+    recommendList: Array
+  },
   data () {
-    return {
-      recommedList: [{
-        id: '0001',
-        imgUrl: 'https://imgs.qunarzz.com/p/tts3/1702/78/4a80960e1406bc02.jpg_r_390x260x95_c26022bd.jpg',
-        title: '大连海洋和sfa',
-        desc: '大连海洋和sfa大连海洋和sfa大连海洋和sfa大连海洋和sfa'
-      }, {
-        id: '0002',
-        imgUrl: 'https://imgs.qunarzz.com/p/tts3/1702/78/4a80960e1406bc02.jpg_r_390x260x95_c26022bd.jpg',
-        title: '大连海洋和sfa',
-        desc: '大连海洋和sfa大连海洋和sfa大连海洋和sfa大连海洋和sfa'
-      }, {
-        id: '0003',
-        imgUrl: 'https://imgs.qunarzz.com/p/tts3/1702/78/4a80960e1406bc02.jpg_r_390x260x95_c26022bd.jpg',
-        title: '大连海洋和sfa',
-        desc: '大连海洋和sfa大连海洋和sfa大连海洋和sfa大连海洋和sfa'
-      }]
-    }
+    return {}
   }
 }
 </script>

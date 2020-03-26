@@ -2,7 +2,7 @@
   <div>
     <div class="recommed-title">热门推荐</div>
     <ul>
-      <li class="item border-bottom" v-for="item of recommedList" :key="item.id">
+      <li class="item border-bottom" v-for="item of weekendList" :key="item.id">
         <div class="item-img-wrapper">
           <img class="item-img" :src="item.imgUrl" alt="">
         </div>
@@ -18,24 +18,11 @@
 <script>
 export default {
   name: 'HomeWeekend',
+  props: {
+    weekendList: Array
+  },
   data () {
     return {
-      recommedList: [{
-        id: '0001',
-        imgUrl: 'https://imgs.qunarzz.com/p/tts3/1702/78/4a80960e1406bc02.jpg_r_390x260x95_c26022bd.jpg',
-        title: '大连海洋和sfa',
-        desc: '大连海洋和sfa大连海洋和sfa大连海洋和sfa大连海洋和sfa'
-      }, {
-        id: '0002',
-        imgUrl: 'https://imgs.qunarzz.com/p/tts3/1702/78/4a80960e1406bc02.jpg_r_390x260x95_c26022bd.jpg',
-        title: '大连海洋和sfa',
-        desc: '大连海洋和sfa大连海洋和sfa大连海洋和sfa大连海洋和sfa'
-      }, {
-        id: '0003',
-        imgUrl: 'https://imgs.qunarzz.com/p/tts3/1702/78/4a80960e1406bc02.jpg_r_390x260x95_c26022bd.jpg',
-        title: '大连海洋和sfa',
-        desc: '大连海洋和sfa大连海洋和sfa大连海洋和sfa大连海洋和sfa'
-      }]
     }
   }
 }
@@ -44,7 +31,6 @@ export default {
 <style scoped lang="stylus">
   @import "~styles/mixins.styl"
   .recommed-title
-    margin-top .2rem
     line-height .5rem
     background #eee
     text-indent .2rem
@@ -54,7 +40,6 @@ export default {
     padding-bottom 33.9%
   .item-img
     width 100%
-    padding .1rem
   .item-info
     padding .1rem
     min-width 0
