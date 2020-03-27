@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585295464105</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="city-search">
+      <created>1585296947547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585296947547</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,10 +136,10 @@
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="1596" y="694" key="FileChooserDialogImpl/0.0.3840.2112@0.0.3840.2112" timestamp="1585290340601" />
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585295875580">
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585296977995">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585295875580" />
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585296977995" />
     <state x="1594" y="743" key="git4idea.merge.GitMergeDialog" timestamp="1585292608201">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
