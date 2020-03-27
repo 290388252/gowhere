@@ -1,79 +1,85 @@
 <template>
-  <div class="list">
-    <div class="area">
-      <div class="title border-topbottom">当前城市</div>
-      <div class="button-list">
-        <div class="buttom-wrapper">
-          <div class="button">广州</div>
+  <div class="list" ref="wrapper">
+    <div>
+      <div class="area">
+        <div class="title border-topbottom">当前城市</div>
+        <div class="button-list">
+          <div class="buttom-wrapper">
+            <div class="button">广州</div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="area">
-      <div class="title border-topbottom">热门城市</div>
-      <div class="button-list">
-        <div class="buttom-wrapper">
-          <div class="button">广州</div>
-        </div>
-        <div class="buttom-wrapper">
-          <div class="button">广州</div>
-        </div>
-        <div class="buttom-wrapper">
-          <div class="button">广州</div>
-        </div>
-        <div class="buttom-wrapper">
-          <div class="button">广州</div>
-        </div>
-        <div class="buttom-wrapper">
-          <div class="button">广州</div>
-        </div>
-        <div class="buttom-wrapper">
-          <div class="button">广州</div>
-        </div>
-        <div class="buttom-wrapper">
-          <div class="button">广州</div>
+      <div class="area">
+        <div class="title border-topbottom">热门城市</div>
+        <div class="button-list">
+          <div class="buttom-wrapper">
+            <div class="button">广州</div>
+          </div>
+          <div class="buttom-wrapper">
+            <div class="button">广州</div>
+          </div>
+          <div class="buttom-wrapper">
+            <div class="button">广州</div>
+          </div>
+          <div class="buttom-wrapper">
+            <div class="button">广州</div>
+          </div>
+          <div class="buttom-wrapper">
+            <div class="button">广州</div>
+          </div>
+          <div class="buttom-wrapper">
+            <div class="button">广州</div>
+          </div>
+          <div class="buttom-wrapper">
+            <div class="button">广州</div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="area">
-      <div class="title border-topbottom">A</div>
-      <div class="item-list">
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-      </div>
-      <div class="title border-topbottom">A</div>
-      <div class="item-list">
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-      </div>
-      <div class="title border-topbottom">A</div>
-      <div class="item-list">
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-      </div>
-      <div class="title border-topbottom">A</div>
-      <div class="item-list">
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
-        <div class="item border-bottom">阿拉伯</div>
+      <div class="area">
+        <div class="title border-topbottom">A</div>
+        <div class="item-list">
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+        </div>
+        <div class="title border-topbottom">A</div>
+        <div class="item-list">
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+        </div>
+        <div class="title border-topbottom">A</div>
+        <div class="item-list">
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+        </div>
+        <div class="title border-topbottom">A</div>
+        <div class="item-list">
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+          <div class="item border-bottom">阿拉伯</div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import BScroll from 'better-scroll'
 export default {
-  name: 'CityList'
+  name: 'CityList',
+  mounted () {
+    this.scroll = new BScroll(this.$refs.wrapper)
+  }
 }
 </script>
 
@@ -93,7 +99,7 @@ export default {
     overflow hidden
     .title
       background #eee
-      line-height .44rem
+      line-height .54rem
       padding-left .2rem
       color: #666
       font-size .26rem
