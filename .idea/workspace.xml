@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f71e0840-3259-4d7e-9c14-f790b9fd0b2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/city/components/alphabet.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/city/city.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/city.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/city/components/alphabet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/alphabet.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/city/components/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/list.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,10 +129,10 @@
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="1596" y="694" key="FileChooserDialogImpl/0.0.3840.2112@0.0.3840.2112" timestamp="1585290340601" />
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585295508907">
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585295875580">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585295508907" />
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585295875580" />
     <state x="1594" y="743" key="git4idea.merge.GitMergeDialog" timestamp="1585292608201">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>

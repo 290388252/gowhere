@@ -1,23 +1,20 @@
 <template>
     <ul class="list">
-      <li class="item">A</li>
-      <li class="item">A</li>
-      <li class="item">A</li>
-      <li class="item">A</li>
-      <li class="item">A</li>
-      <li class="item">A</li>
-      <li class="item">A</li>
-      <li class="item">A</li>
+      <li class="item" v-for="(item, key) of cities" :key="key">{{key}}</li>
     </ul>
 </template>
 
 <script>
 export default {
-  name: 'CityAlphabet'
+  name: 'CityAlphabet',
+  props: {
+    cities: Object
+  }
 }
 </script>
 
 <style scoped lang="stylus">
+  @import "~styles/varibles.styl"
 .list
   position absolute
   top 1.58rem
@@ -29,5 +26,6 @@ export default {
   justify-content center
   .item
     text-align center
-    line-height .4rem
+    line-height .36rem
+    color $bgColor
 </style>
