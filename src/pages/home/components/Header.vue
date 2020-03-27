@@ -4,7 +4,9 @@
       <span class="iconfont">&#xe606;</span>
     </div>
     <div class="header-input"><span class="iconfont">&#xe627;</span>输入城市景点/游玩城市</div>
-    <div class="header-right">{{city}}<span class="iconfont" style="font-size: 12px">&#xe64a;</span></div>
+    <router-link to="city">
+      <div class="header-right">{{city}}<span class="iconfont" style="font-size: 12px">&#xe64a;</span></div>
+    </router-link>
   </div>
 </template>
 
@@ -42,4 +44,5 @@ export default {
       width: 1.24rem
       float right
       text-align center
+      color white
 </style>

@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f71e0840-3259-4d7e-9c14-f790b9fd0b2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/mork/city.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mork/detail.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mork/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/city/city.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/city/components/header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/icons.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/icons.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/recommed.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/recommed.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/swiper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/swiper.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/weekend.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/weekend.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/mork" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ys-webZhuhaiShop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -79,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585208642305</updated>
       <workItem from="1585208646864" duration="2165000" />
+      <workItem from="1585271467298" duration="12479000" />
     </task>
     <servers />
   </component>
@@ -90,7 +83,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -109,14 +104,18 @@
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="91" y="91" width="3658" height="1930" key="DiffContextDialog/0.0.3840.2112@0.0.3840.2112" timestamp="1585211982521" />
-    <state x="1596" y="694" key="FileChooserDialogImpl" timestamp="1585212621986">
+    <state x="1596" y="694" key="FileChooserDialogImpl" timestamp="1585290340601">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1596" y="694" key="FileChooserDialogImpl/0.0.3840.2112@0.0.3840.2112" timestamp="1585212621986" />
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585212105690">
+    <state x="1596" y="694" key="FileChooserDialogImpl/0.0.3840.2112@0.0.3840.2112" timestamp="1585290340601" />
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585292627186">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585212105690" />
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585292627186" />
+    <state x="1594" y="743" key="git4idea.merge.GitMergeDialog" timestamp="1585292608201">
+      <screen x="0" y="0" width="3840" height="2112" />
+    </state>
+    <state x="1594" y="743" key="git4idea.merge.GitMergeDialog/0.0.3840.2112@0.0.3840.2112" timestamp="1585292608201" />
     <state x="1413" y="475" width="1009" height="1470" key="search.everywhere.popup" timestamp="1585210346539">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
