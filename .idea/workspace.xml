@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f71e0840-3259-4d7e-9c14-f790b9fd0b2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/city/components/search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/city/components/list.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/city/city.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/city.vue" afterDir="false" />
     </list>
@@ -33,6 +33,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/city/components" />
@@ -72,6 +73,14 @@
       <workItem from="1585208646864" duration="2165000" />
       <workItem from="1585271467298" duration="12479000" />
     </task>
+    <task id="LOCAL-00001" summary="city-search">
+      <created>1585293576907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585293576907</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,13 +101,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="icons" />
+    <MESSAGE value="city-search" />
+    <option name="LAST_COMMIT_MESSAGE" value="city-search" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1456" y="809" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585212745181">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="1456" y="809" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.2112@0.0.3840.2112" timestamp="1585212745181" />
+    <state x="1290" y="370" key="CommitChangelistDialog2" timestamp="1585293576341">
+      <screen x="0" y="0" width="3840" height="2112" />
+    </state>
+    <state x="1290" y="370" key="CommitChangelistDialog2/0.0.3840.2112@0.0.3840.2112" timestamp="1585293576341" />
     <state x="91" y="91" width="3658" height="1930" key="DiffContextDialog" timestamp="1585211982521">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
@@ -107,10 +121,10 @@
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="1596" y="694" key="FileChooserDialogImpl/0.0.3840.2112@0.0.3840.2112" timestamp="1585290340601" />
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585292627186">
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585293620002">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585292627186" />
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585293620002" />
     <state x="1594" y="743" key="git4idea.merge.GitMergeDialog" timestamp="1585292608201">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
