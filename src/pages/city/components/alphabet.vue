@@ -24,7 +24,7 @@ export default {
     }
   },
   updated () {
-    this.startY = this.$refs['A'][0].offsetTop
+    this.startY = this.$refs['A'][0].offsetTop // 第一个字母到顶部的距离。除去头部栏目
   },
   computed: {
     letter () {
@@ -48,8 +48,8 @@ export default {
           clearTimeout(this.timer)
         }
         this.timer = setTimeout(() => {
-          const touchY = e.touches[0].clientY - 79
-          const index = Math.floor((touchY - this.startY) / 17.6)
+          const touchY = e.touches[0].clientY - 79 // 79是头部栏高度
+          const index = Math.floor((touchY - this.startY) / 17.6) // 17.6是每个字母的高度。touchY是第一个字母高度位置
           if (index >= 0 && index < this.letter.length) {
             this.$emit('change', this.letter[index])
           }
