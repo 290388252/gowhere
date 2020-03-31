@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f71e0840-3259-4d7e-9c14-f790b9fd0b2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/mutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/city/city.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/city.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/city/components/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/list.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/city/components/search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/search.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,7 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="Git.Branch.Popup.ShowAllLocals" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/city/components" />
@@ -42,6 +51,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\gowhere\node_modules\prettier" />
+    <property name="ts.external.directory.path" value="D:\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -137,10 +147,10 @@
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="1596" y="694" key="FileChooserDialogImpl/0.0.3840.2112@0.0.3840.2112" timestamp="1585290340601" />
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585296977995">
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585641777777">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585296977995" />
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585641777777" />
     <state x="1594" y="743" key="git4idea.merge.GitMergeDialog" timestamp="1585292608201">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
