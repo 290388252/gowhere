@@ -4,8 +4,8 @@
     <list default="true" id="f71e0840-3259-4d7e-9c14-f790b9fd0b2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/city/city.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/city.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/city/components/alphabet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/alphabet.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/city/components/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/city/components/search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/search.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,7 @@
       <updated>1585208642305</updated>
       <workItem from="1585208646864" duration="2165000" />
       <workItem from="1585271467298" duration="12479000" />
+      <workItem from="1585616947857" duration="6530000" />
     </task>
     <task id="LOCAL-00001" summary="city-search">
       <created>1585293576907</created>
