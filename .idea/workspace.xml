@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f71e0840-3259-4d7e-9c14-f790b9fd0b2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/city/components/alphabet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/alphabet.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/city/city.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/city.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/city/components/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/city/components/search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/search.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="city-search-logic" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,8 +73,7 @@
       <updated>1585208642305</updated>
       <workItem from="1585208646864" duration="2165000" />
       <workItem from="1585271467298" duration="12479000" />
-      <workItem from="1585531290091" duration="3584000" />
-      <workItem from="1585538600083" duration="4102000" />
+      <workItem from="1585616947857" duration="6530000" />
     </task>
     <task id="LOCAL-00001" summary="city-search">
       <created>1585293576907</created>
@@ -118,8 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="icons" />
     <MESSAGE value="city-search" />
-    <MESSAGE value="city-componments" />
-    <option name="LAST_COMMIT_MESSAGE" value="city-componments" />
+    <option name="LAST_COMMIT_MESSAGE" value="city-search" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1456" y="809" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585212745181">
@@ -138,10 +137,10 @@
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="1596" y="694" key="FileChooserDialogImpl/0.0.3840.2112@0.0.3840.2112" timestamp="1585290340601" />
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585302202082">
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585296977995">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585302202082" />
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585296977995" />
     <state x="1594" y="743" key="git4idea.merge.GitMergeDialog" timestamp="1585292608201">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
