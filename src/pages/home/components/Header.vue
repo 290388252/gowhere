@@ -5,16 +5,19 @@
     </div>
     <div class="header-input"><span class="iconfont">&#xe627;</span>输入城市景点/游玩城市</div>
     <router-link to="city">
-      <div class="header-right">{{this.city}}<span class="iconfont" style="font-size: 12px">&#xe64a;</span></div>
+      <div class="header-right">{{this.doubleCity}}<span class="iconfont" style="font-size: 12px">&#xe64a;</span></div>
     </router-link>
   </div>
 </template>
 
 <script>
-import {mapState} from 'vuex'
+import {mapState, mapGetters} from 'vuex'
 export default {
   name: 'Header',
-  computed: {...mapState(['city'])}
+  computed: {
+    ...mapState(['city']),
+    ...mapGetters(['doubleCity'])
+  }
 }
 </script>
 

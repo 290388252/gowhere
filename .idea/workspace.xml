@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f71e0840-3259-4d7e-9c14-f790b9fd0b2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/mutations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/city/components/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/list.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/city/components/search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/city/components/search.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +75,7 @@
       <workItem from="1585208646864" duration="2165000" />
       <workItem from="1585271467298" duration="12479000" />
       <workItem from="1585616947857" duration="6530000" />
+      <workItem from="1585787973052" duration="3113000" />
     </task>
     <task id="LOCAL-00001" summary="city-search">
       <created>1585293576907</created>
@@ -135,10 +127,10 @@
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="1456" y="809" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.2112@0.0.3840.2112" timestamp="1585212745181" />
-    <state x="1290" y="370" key="CommitChangelistDialog2" timestamp="1585293576341">
+    <state x="1290" y="370" key="CommitChangelistDialog2" timestamp="1585648537365">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1290" y="370" key="CommitChangelistDialog2/0.0.3840.2112@0.0.3840.2112" timestamp="1585293576341" />
+    <state x="1290" y="370" key="CommitChangelistDialog2/0.0.3840.2112@0.0.3840.2112" timestamp="1585648537365" />
     <state x="91" y="91" width="3658" height="1930" key="DiffContextDialog" timestamp="1585211982521">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
@@ -147,10 +139,10 @@
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="1596" y="694" key="FileChooserDialogImpl/0.0.3840.2112@0.0.3840.2112" timestamp="1585290340601" />
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585641777777">
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585648539485">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585641777777" />
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585648539485" />
     <state x="1594" y="743" key="git4idea.merge.GitMergeDialog" timestamp="1585292608201">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
