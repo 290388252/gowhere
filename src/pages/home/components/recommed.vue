@@ -2,7 +2,7 @@
   <div>
     <div class="recommed-title">周末去哪儿</div>
     <ul>
-      <router-link to="/detail" tag="li" class="item border-bottom" v-for="item of recommendList" :key="item.id">
+      <router-link to="/detail/01" tag="li" class="item border-bottom" v-for="item of recommendList" :key="item.id">
           <div class="item-img-wrapper">
             <img class="item-img" :src="item.imgUrl" alt="">
           </div>

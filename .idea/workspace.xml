@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f71e0840-3259-4d7e-9c14-f790b9fd0b2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/gallary/gallary.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/detail/components/banenr.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/detail/detail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/detail/components/header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/demo_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/demo_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/detail/detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/detail/detail.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/components/recommed.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/recommed.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585296947547</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="city-search">
+      <created>1585904237878</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585904237878</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,10 +136,10 @@
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="1456" y="809" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.2112@0.0.3840.2112" timestamp="1585212745181" />
-    <state x="1290" y="370" key="CommitChangelistDialog2" timestamp="1585648537365">
+    <state x="1290" y="370" key="CommitChangelistDialog2" timestamp="1585904237160">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1290" y="370" key="CommitChangelistDialog2/0.0.3840.2112@0.0.3840.2112" timestamp="1585648537365" />
+    <state x="1290" y="370" key="CommitChangelistDialog2/0.0.3840.2112@0.0.3840.2112" timestamp="1585904237160" />
     <state x="91" y="91" width="3658" height="1930" key="DiffContextDialog" timestamp="1585211982521">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
@@ -154,10 +148,10 @@
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="1596" y="694" key="FileChooserDialogImpl/0.0.3840.2112@0.0.3840.2112" timestamp="1585290340601" />
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585811676772">
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585904315574">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585811676772" />
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585904315574" />
     <state x="1594" y="743" key="git4idea.merge.GitMergeDialog" timestamp="1585292608201">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
