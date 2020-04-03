@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f71e0840-3259-4d7e-9c14-f790b9fd0b2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/common/gallary/gallary.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/detail/components/banenr.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/detail/detail.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/demo_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/demo_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/iconfont/iconfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/recommed.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/recommed.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -37,7 +51,7 @@
     <property name="Git.Branch.Popup.ShowAllLocals" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/city/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/styles/iconfont" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -46,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gowhere\src\assets\styles\iconfont" />
       <recent name="E:\gowhere\src\pages\city\components" />
       <recent name="E:\gowhere\static\mork" />
     </key>
