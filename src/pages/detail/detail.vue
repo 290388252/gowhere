@@ -2,23 +2,28 @@
     <div>
       <detail-banner :gallaryImgs="gallaryImgs"/>
       <detail-header/>
-      <div class="container"></div>
+      <div class="container">
+        <detail-list :categoryList="categoryList"/>
+      </div>
     </div>
 </template>
 
 <script>
 import DetailBanner from './components/banenr'
 import DetailHeader from './components/header'
+import DetailList from './components/list'
 import axios from 'axios'
 export default {
   name: 'detail',
   data () {
     return {
-      gallaryImgs: []
+      gallaryImgs: [],
+      categoryList: []
     }
   },
   components: {
     DetailBanner,
+    DetailList,
     DetailHeader
   },
   methods: {
@@ -27,6 +32,7 @@ export default {
         res = res.data
         if (res.ret) {
           this.gallaryImgs = res.data.gallaryImgs
+          this.categoryList = res.data.categoryList
           console.log(this.gallaryImgs)
         }
       })

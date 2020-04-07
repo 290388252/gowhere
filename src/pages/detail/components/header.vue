@@ -63,6 +63,7 @@ export default {
     font-size .4rem
     margin-top .16rem
 .header-fixed
+  z-index 2
   position fixed
   top 0
   bottom 0

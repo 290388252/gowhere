@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f71e0840-3259-4d7e-9c14-f790b9fd0b2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/detail/components/header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/detail/components/list.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/detail/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/detail/components/header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/detail/detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/detail/detail.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/recommed.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/recommed.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Git.Branch.Popup.ShowAllLocals" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/styles/iconfont" />
@@ -78,6 +79,7 @@
       <workItem from="1585271467298" duration="12479000" />
       <workItem from="1585616947857" duration="6530000" />
       <workItem from="1585787973052" duration="3113000" />
+      <workItem from="1586225386292" duration="3205000" />
     </task>
     <task id="LOCAL-00001" summary="city-search">
       <created>1585293576907</created>
@@ -107,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585904237878</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="header opacity">
+      <created>1585907137134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585907137134</updated>
+    </task>
+    <task id="LOCAL-00006" summary="deactivated removeEventListener scroll">
+      <created>1585907487078</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585907487078</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,17 +145,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="icons" />
     <MESSAGE value="city-search" />
-    <option name="LAST_COMMIT_MESSAGE" value="city-search" />
+    <MESSAGE value="header opacity" />
+    <MESSAGE value="deactivated removeEventListener scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="deactivated removeEventListener scroll" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1456" y="809" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585212745181">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="1456" y="809" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.2112@0.0.3840.2112" timestamp="1585212745181" />
-    <state x="1290" y="370" key="CommitChangelistDialog2" timestamp="1585904237160">
+    <state x="1716" y="343" key="CommitChangelistDialog2" timestamp="1585907486460">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1290" y="370" key="CommitChangelistDialog2/0.0.3840.2112@0.0.3840.2112" timestamp="1585904237160" />
+    <state x="1716" y="343" key="CommitChangelistDialog2/0.0.3840.2112@0.0.3840.2112" timestamp="1585907486460" />
     <state x="91" y="91" width="3658" height="1930" key="DiffContextDialog" timestamp="1585211982521">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
@@ -148,10 +166,10 @@
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
     <state x="1596" y="694" key="FileChooserDialogImpl/0.0.3840.2112@0.0.3840.2112" timestamp="1585290340601" />
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585904315574">
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2" timestamp="1585907522445">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
-    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585904315574" />
+    <state x="1311" y="653" key="Vcs.Push.Dialog.v2/0.0.3840.2112@0.0.3840.2112" timestamp="1585907522445" />
     <state x="1594" y="743" key="git4idea.merge.GitMergeDialog" timestamp="1585292608201">
       <screen x="0" y="0" width="3840" height="2112" />
     </state>
